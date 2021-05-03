@@ -1,14 +1,20 @@
 import { NavigationContainer } from '@react-navigation/native'
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   StatusBar,
-  useColorScheme
+  useColorScheme,
+  LogBox 
 } from 'react-native'
 
 import Navigation from './app/Navigation'
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark'
+
+  //https://stackoverflow.com/questions/58243680/react-native-another-virtualizedlist-backed-container
+  useEffect(() => {
+    LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
+}, [])
 
   return (
     <NavigationContainer>
