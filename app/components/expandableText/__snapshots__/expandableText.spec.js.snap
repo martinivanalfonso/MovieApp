@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpandableText Component renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "color": "gray",
+        "fontSize": 16,
+        "marginBottom": 14,
+      }
+    }
+  >
+    test
+  </Text>
+</View>
+`;

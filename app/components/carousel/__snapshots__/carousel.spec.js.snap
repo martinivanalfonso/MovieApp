@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel Component renders correctly 1`] = `
+<View>
+  <Carousel
+    activeAnimationOptions={null}
+    activeAnimationType="timing"
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    autoplay={false}
+    autoplayDelay={1000}
+    autoplayInterval={3000}
+    callbackOffsetMargin={5}
+    containerCustomStyle={
+      Object {
+        "backgroundColor": "black",
+      }
+    }
+    contentContainerCustomStyle={Object {}}
+    data={
+      Array [
+        "1",
+        "2",
+        "3",
+      ]
+    }
+    enableMomentum={false}
+    enableSnap={true}
+    firstItem={0}
+    hasParallaxImages={false}
+    inactiveSlideOpacity={0.7}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    itemWidth={400}
+    layout="default"
+    lockScrollTimeoutDuration={1000}
+    lockScrollWhileSnapping={false}
+    loop={false}
+    loopClonesPerSide={3}
+    onSnapToItem={[Function]}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    shouldOptimizeUpdates={true}
+    slideStyle={Object {}}
+    sliderWidth={400}
+    swipeThreshold={20}
+    useScrollView={false}
+    vertical={false}
+  />
+  <Pagination
+    activeDotIndex={0}
+    animatedDuration={250}
+    animatedFriction={4}
+    animatedTension={50}
+    containerStyle={
+      Object {
+        "backgroundColor": "rgba(0, 0, 0, 0.75)",
+        "justifyContent": "flex-start",
+      }
+    }
+    delayPressInDot={0}
+    dotStyle={
+      Object {
+        "backgroundColor": "#EE3333",
+        "borderRadius": 5,
+        "height": 8,
+        "width": 20,
+      }
+    }
+    dotsLength={3}
+    inactiveDotOpacity={0.5}
+    inactiveDotScale={1}
+    inactiveDotStyle={
+      Object {
+        "backgroundColor": "#616161",
+        "borderRadius": 5,
+        "height": 8,
+        "width": 8,
+      }
+    }
+    tappableDots={false}
+    vertical={false}
+  />
+</View>
+`;
